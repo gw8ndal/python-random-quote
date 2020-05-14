@@ -7,7 +7,8 @@ def pizdec():
   f.close()
   last = 13
   rnd = rng.randint(0, last)
-  print(quotes[rnd])
+  rnd2 = rng.randint(0, last)
+  print(quotes[rnd], quotes[rnd2])
 
 if __name__== "__main__":
   pizdec()
